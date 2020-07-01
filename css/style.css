@@ -1988,3 +1988,21 @@ h1, h2, h3, h4, h5,
     font-size: 30px;
     font-weight: 900; 
   }
+
+  .responsive-text{
+    font-size:30px;
+  }
+
+ @media screen and (max-width: 600px) {
+  .responsive-text{
+    font-size:15px;
+  }
+
+  .address-text{
+    font-size: 13px;
+  }
+
+  .mobile-no{
+    font-size: 13px;
+  }
+}
